@@ -2,7 +2,7 @@
 
 <img src="public/images/logo.png" alt="Neurospire AI Logo" width="120" />
 
-# Neurospire LM
+# Neurospire LMS
 
 **Student, partner, and admin portal for Neurospire AI Technologies, an MSME-registered AI and software education organization.**
 
@@ -31,6 +31,7 @@
 - [Project Structure](#project-structure)
 - [Deployment](#deployment)
 - [Contributing](#contributing)
+- [Support](#support)
 - [Author](#author)
 - [Acknowledgements](#acknowledgements)
 
@@ -157,6 +158,12 @@ Deployed on Vercel. To deploy your own copy, push the repo to GitHub, import it 
 3. Commit: `git commit -m "Add your feature"`
 4. Push: `git push origin feature/your-feature`
 5. Open a pull request
+
+## Support
+
+- **Found a bug or have an idea?** [Open an issue](https://github.com/omermohammedfarooq/neurospire-lms/issues).
+- **Want to join a program?** Apply through the [live site](https://neuro-spire.vercel.app/apply).
+- **Need to check a credential?** Use the [certificate verifier](https://neuro-spire.vercel.app/verify).
 
 ## Author
 
