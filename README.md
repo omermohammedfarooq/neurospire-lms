@@ -21,6 +21,7 @@
 ## Table of Contents
 
 - [Overview](#overview)
+- [Quick Start](#quick-start)
 - [Features](#features)
 - [Programs](#programs)
 - [Tech Stack](#tech-stack)
@@ -36,6 +37,14 @@
 Neurospire AI Technologies trains college students in practical AI and software engineering through a project-first internship program. This repository is the web platform behind it: the public site, the LMS for students, a hub for corporate partners, and admin tooling for onboarding learners and verifying credentials.
 
 > **Think fast, build faster.**
+
+## Quick Start
+
+```bash
+git clone https://github.com/omermohammedfarooq/neurospire-lms.git && cd neurospire-lms && npm install && npm run dev
+```
+
+Then open [http://localhost:3000](http://localhost:3000). Want to see it first? Visit the [live site](https://neuro-spire.vercel.app/).
 
 ## Features
 
@@ -96,17 +105,9 @@ Three tiers are available (**Lite**, **Regular**, **Pro**), from live sessions a
 
 **Prerequisites:** [Node.js](https://nodejs.org) 20+ and npm, yarn, pnpm, or bun.
 
-```bash
-# Clone and install
-git clone https://github.com/omermohammedfarooq/neurospire-lms.git
-cd neurospire-lms
-npm install
-
-# Start the dev server
-npm run dev
-```
-
-Open [http://localhost:3000](http://localhost:3000). The page hot-reloads as you edit.
+1. Clone the repo and install dependencies with `npm install`.
+2. Start the dev server with `npm run dev`.
+3. Open [http://localhost:3000](http://localhost:3000). The page hot-reloads as you edit.
 
 | Command | Description |
 | --- | --- |
