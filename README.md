@@ -32,6 +32,7 @@
 - [Deployment](#deployment)
 - [Contributing](#contributing)
 - [Author](#author)
+- [Acknowledgements](#acknowledgements)
 
 ## Overview
 
@@ -160,6 +161,15 @@ Deployed on Vercel. To deploy your own copy, push the repo to GitHub, import it 
 ## Author
 
 **Mohammed Omer Farooq** · [@omermohammedfarooq](https://github.com/omermohammedfarooq)
+
+## Acknowledgements
+
+- [Next.js](https://nextjs.org) and [Vercel](https://vercel.com) for the framework and hosting
+- [Geist](https://vercel.com/font) typeface by Vercel
+- [Tailwind CSS](https://tailwindcss.com) for styling
+- Every student and partner who has been part of the Neurospire community
+
+<p align="right"><a href="#neurospire-lms">Back to top</a></p>
 
 ---
 
