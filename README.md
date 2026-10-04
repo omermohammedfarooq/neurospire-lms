@@ -2,7 +2,7 @@
 
 <img src="public/images/logo.png" alt="Neurospire AI Logo" width="120" />
 
-# Neurospire LMS
+# Neurospire LM
 
 **Student, partner, and admin portal for Neurospire AI Technologies, an MSME-registered AI and software education organization.**
 
