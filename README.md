@@ -4,7 +4,7 @@
 
 # Neurospire LMS
 
-**The student, partner, and admin portal for Neurospire AI Technologies, an MSME-registered AI and software education organization.**
+**Student, partner, and admin portal for Neurospire AI Technologies, an MSME-registered AI and software education organization.**
 
 [Live Site](https://neuro-spire.vercel.app/) · [Student Portal](https://neuro-spire.vercel.app/login) · [Partner Hub](https://neuro-spire.vercel.app/partner-login) · [Verify a Certificate](https://neuro-spire.vercel.app/verify)
 
@@ -18,41 +18,57 @@
 
 ---
 
+## Table of Contents
+
+- [Overview](#overview)
+- [Features](#features)
+- [Programs](#programs)
+- [Tech Stack](#tech-stack)
+- [Routes](#routes)
+- [Getting Started](#getting-started)
+- [Project Structure](#project-structure)
+- [Deployment](#deployment)
+- [Contributing](#contributing)
+- [Author](#author)
+
 ## Overview
 
-Neurospire AI Technologies trains college students in practical AI and software engineering through a structured, project-first internship program. This repository contains the web platform behind it: the public marketing site, the learning management system (LMS) for students, a hub for corporate partners, and admin tooling for provisioning learners and verifying credentials.
+Neurospire AI Technologies trains college students in practical AI and software engineering through a project-first internship program. This repository is the web platform behind it: the public site, the LMS for students, a hub for corporate partners, and admin tooling for onboarding learners and verifying credentials.
 
-**Think fast, build faster.**
+> **Think fast, build faster.**
 
 ## Features
 
-- **Public landing site** with program details, curriculum, pricing tiers, and the end-to-end project workflow.
-- **Student Portal** for accessing the curriculum, tracking weekly progress, submitting project repositories, and claiming certificates.
-- **Enterprise Partner Hub** where sponsors, project coordinators, and hiring managers can monitor cohort metrics and evaluate candidates.
-- **Certificate verification** so anyone can confirm that a credential issued by Neurospire is authentic.
-- **Admin provisioning** for registering and onboarding students.
-- **Application flow** for internship registration.
-- **Responsive, modern UI** built with Tailwind CSS and the Geist font via `next/font`.
+- **Public landing site** covering programs, curriculum, pricing tiers, and the project workflow
+- **Student Portal** for curriculum access, weekly progress tracking, project repository submissions, and certificates
+- **Enterprise Partner Hub** for sponsors and hiring managers to monitor cohort metrics and evaluate candidates
+- **Certificate verification** so anyone can confirm a credential is authentic
+- **Admin provisioning** for registering and onboarding students
+- **Application flow** for internship registration
+- **Responsive UI** built with Tailwind CSS and the Geist font via `next/font`
 
 ## Programs
 
-The flagship offering is the **5-Week AI Industry Readiness** program:
+The flagship offering is the **5-Week AI Industry Readiness** program.
 
 | Phase | What happens |
 | --- | --- |
-| **Week 1: Core Training** | Intensive guided sessions, resources, mentorship, and practical assignments. |
-| **Weeks 2 to 5: Project Internship** | Merit-based admission to a 4-week hands-on internship building real projects. |
+| **Week 1: Core Training** | Guided sessions, resources, mentorship, and practical assignments |
+| **Weeks 2 to 5: Project Internship** | Merit-based admission to a 4-week hands-on internship building real projects |
 
-Three tiers are offered: **Lite**, **Regular**, and **Pro**, ranging from live sessions and community access up to lifetime LMS access, 1-on-1 mentorship, and career services. See the [live site](https://neuro-spire.vercel.app/#pricing) for current details.
+Three tiers are available (**Lite**, **Regular**, **Pro**), from live sessions and community access up to lifetime LMS access and 1-on-1 mentorship. See the [live site](https://neuro-spire.vercel.app/#pricing) for current details.
 
-### Curriculum at a glance
+<details>
+<summary><b>Curriculum at a glance</b></summary>
 
 | Week | Focus |
 | --- | --- |
-| 1 | ChatGPT and prompt engineering, Cursor AI, VS Code and GitHub basics, a first mini project |
+| 1 | ChatGPT and prompt engineering, Cursor AI, VS Code and GitHub basics, first mini project |
 | 2 | HTML, CSS, Tailwind CSS and JavaScript, React fundamentals, responsive design |
 | 3 | APIs, Supabase and authentication, databases and forms, AI API integration |
 | 4 | GitHub collaboration, deployment, resume and LinkedIn optimization, final evaluation |
+
+</details>
 
 ## Tech Stack
 
@@ -78,36 +94,24 @@ Three tiers are offered: **Lite**, **Regular**, and **Pro**, ranging from live s
 
 ## Getting Started
 
-### Prerequisites
-
-- [Node.js](https://nodejs.org) 20 or later
-- npm, yarn, pnpm, or bun
-
-### Installation
+**Prerequisites:** [Node.js](https://nodejs.org) 20+ and npm, yarn, pnpm, or bun.
 
 ```bash
-# Clone the repository
+# Clone and install
 git clone https://github.com/omermohammedfarooq/neurospire-lms.git
 cd neurospire-lms
-
-# Install dependencies
 npm install
-```
 
-### Run the development server
-
-```bash
+# Start the dev server
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) in your browser. The page hot-reloads as you edit files.
-
-### Available scripts
+Open [http://localhost:3000](http://localhost:3000). The page hot-reloads as you edit.
 
 | Command | Description |
 | --- | --- |
 | `npm run dev` | Start the development server |
-| `npm run build` | Create an optimized production build |
+| `npm run build` | Create a production build |
 | `npm run start` | Serve the production build |
 | `npm run lint` | Run ESLint |
 
@@ -115,9 +119,9 @@ Open [http://localhost:3000](http://localhost:3000) in your browser. The page ho
 
 ```
 neurospire-lms/
-├── public/          # Static assets (logo, images)
-├── src/             # Application source (App Router pages, components)
-├── next.config.ts   # Next.js configuration
+├── public/            # Static assets (logo, images)
+├── src/               # Application source (pages, components)
+├── next.config.ts
 ├── postcss.config.mjs
 ├── eslint.config.mjs
 ├── tsconfig.json
@@ -126,28 +130,19 @@ neurospire-lms/
 
 ## Deployment
 
-The project is deployed on Vercel. To deploy your own copy:
-
-1. Push the repository to your GitHub account.
-2. Import it at [vercel.com/new](https://vercel.com/new).
-3. Vercel detects Next.js automatically; click **Deploy**.
-
-See the [Next.js deployment docs](https://nextjs.org/docs/app/building-your-application/deploying) for other hosting options.
+Deployed on Vercel. To deploy your own copy, push the repo to GitHub, import it at [vercel.com/new](https://vercel.com/new), and click **Deploy**. Vercel detects Next.js automatically. Other options are covered in the [Next.js deployment docs](https://nextjs.org/docs/app/building-your-application/deploying).
 
 ## Contributing
 
-Contributions, issues, and suggestions are welcome.
-
 1. Fork the repository
-2. Create a feature branch: `git checkout -b feature/your-feature`
-3. Commit your changes: `git commit -m "Add your feature"`
-4. Push to the branch: `git push origin feature/your-feature`
+2. Create a branch: `git checkout -b feature/your-feature`
+3. Commit: `git commit -m "Add your feature"`
+4. Push: `git push origin feature/your-feature`
 5. Open a pull request
 
 ## Author
 
-**Mohammed Omer Farooq**
-GitHub: [@omermohammedfarooq](https://github.com/omermohammedfarooq)
+**Mohammed Omer Farooq** · [@omermohammedfarooq](https://github.com/omermohammedfarooq)
 
 ---
 
