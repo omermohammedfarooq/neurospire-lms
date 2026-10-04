@@ -24,6 +24,7 @@
 - [Quick Start](#quick-start)
 - [Features](#features)
 - [Programs](#programs)
+- [How It Works](#how-it-works)
 - [Tech Stack](#tech-stack)
 - [Routes](#routes)
 - [Getting Started](#getting-started)
@@ -78,6 +79,21 @@ Three tiers are available (**Lite**, **Regular**, **Pro**), from live sessions a
 | 4 | GitHub collaboration, deployment, resume and LinkedIn optimization, final evaluation |
 
 </details>
+
+## How It Works
+
+```mermaid
+flowchart LR
+    A[Apply] --> B[Week 1: Core Training]
+    B --> C{Selected?}
+    C -- Yes --> D[Weeks 2-5: Project Internship]
+    C -- No --> E[Training certificate]
+    D --> F[Final evaluation]
+    F --> G[Certificate issued]
+    G --> H[Anyone can verify at /verify]
+```
+
+Students use the **Student Portal** throughout, partners follow cohort progress in the **Partner Hub**, and admins handle onboarding.
 
 ## Tech Stack
 
